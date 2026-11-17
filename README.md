@@ -8,4 +8,4 @@ Version 0.4.16 and later silently checks for updates when the plugin runtime lau
 
 Current installers are license-enforced development/beta builds. They are unsigned; macOS is not notarized. AAX requires Pro Tools Developer until Avid/PACE signing is complete. Manufacturer Arsc replaces prototype InAu; Avid acceptance is pending. Preserve the old installer and back up sessions before upgrading older InAu installations.
 
-This repository contains public distribution material only. Aileron source is maintained separately. Downloading an installer does not grant a software license. Contact: support@airscaperecords.com.
+This repository contains public distribution material only. Aileron source is maintained separately. Downloading an installer does not grant a software license. Contact: contact@airscaperecords.com.
