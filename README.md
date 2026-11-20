@@ -6,7 +6,9 @@ Mac downloads are for Apple Silicon (AU, VST3 and AAX). Windows downloads are x6
 
 Aileron 0.4.18 and later offer a dismissible prompt when a startup check finds an update. Choose View Update to review and download it from About, or Not Now to continue. In About, Automatically check for updates can disable startup checks and prompts on this computer. Check for Updates remains available manually. Instances in the same loaded module share the launch result. Downloads and installation require your approval. No license keys, email, audio or session data are sent to GitHub. Earlier versions with the update checker can find this release using About > Check for Updates.
 
-In 0.4.19, the License panel hides Activate and the trial button while activated, and hides Deactivate this device while inactive. Visible actions are disabled during license requests.
+In 0.4.20, the License panel hides the key-entry field, its label, Activate and the trial button while activated. Deactivate this device is hidden while inactive. Visible actions are disabled during license requests.
+
+Starting with 0.4.20, verified in-plugin update downloads are saved directly in Downloads. Existing files are preserved with numbered filenames. Show Installer reveals the file; you can delete the installer after installation. Older installed versions still use their previous download location until upgraded.
 
 Reset Defaults in the top bar restores all parameters in the current A/B slot, preserving the other slot, license and update preference. Logic also exposes the factory preset under Settings > AU Presets > Default. Logic's separate Recall Default command recalls a user default saved with Save As Default.
 
