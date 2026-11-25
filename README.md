@@ -2,6 +2,8 @@
 
 Official installer downloads: [Latest release](https://github.com/iamcaptaine/Aileron-Releases/releases/latest).
 
+**[Read the Aileron User Manual](USER_MANUAL.md)** for setup instructions, explanations of every knob and control, motion modes, frequency selection, A/B comparison, licensing, and updates. Jump directly to the [control reference](USER_MANUAL.md#controls) or the [quick start](USER_MANUAL.md#quick-start-alternate-sounds).
+
 Mac downloads are for Apple Silicon (AU, VST3 and AAX). Windows downloads are x64 (VST3 and AAX). Save your project and quit all DAWs before running an installer. Installation requires your approval and may request administrator authorization.
 
 Aileron 0.4.18 and later offer a dismissible prompt when a startup check finds an update. Choose View Update to review and download it from About, or Not Now to continue. In About, Automatically check for updates can disable startup checks and prompts on this computer. Check for Updates remains available manually. Instances in the same loaded module share the launch result. Downloads and installation require your approval. No license keys, email, audio or session data are sent to GitHub. Earlier versions with the update checker can find this release using About > Check for Updates.
