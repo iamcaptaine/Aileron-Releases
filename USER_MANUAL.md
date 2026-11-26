@@ -1,6 +1,6 @@
 # Aileron User Manual
 
-**Version 0.4.20 - license-enforced beta**
+**Version 0.4.21 - license-enforced beta**
 
 **Airscape Records**  
 Made by Matthew Ekeinde AKA Captain E
@@ -28,9 +28,9 @@ The manufacturer code is now `Arsc` (exact casing), replacing `InAu`. Avid accep
 
 ## Installation
 
-The **Airscape-Aileron-0.4.20-macOS-arm64.pkg** development installer includes AU, VST3 and AAX Native for Apple Silicon. Quit your DAW, open the installer, choose the formats you need and follow the prompts. Restart your DAW and rescan its plugins if necessary. The installer is unsigned and not notarized. The AAX build is unsigned for Avid/PACE and requires Pro Tools Developer; it has not been validated in Pro Tools. AU and VST3 DAW validation also remains outstanding.
+The **Airscape-Aileron-0.4.21-macOS-arm64.pkg** development installer includes AU, VST3 and AAX Native for Apple Silicon. Quit your DAW, open the installer, choose the formats you need and follow the prompts. Restart your DAW and rescan its plugins if necessary. The installer is unsigned and not notarized. The AAX build is unsigned for Avid/PACE and requires Pro Tools Developer; it has not been validated in Pro Tools. AU and VST3 DAW validation also remains outstanding.
 
-The **Airscape-Aileron-0.4.20-Windows-x64.exe** installer supports 64-bit Windows 10 and later. Close your DAW, choose VST3, AAX Native or both, then restart and rescan the DAW. Plug-ins install under Program Files\Common Files. Use Windows Settings > Apps > Aileron to uninstall. The development EXE is unsigned, and AAX testing requires Pro Tools Developer.
+The **Airscape-Aileron-0.4.21-Windows-x64.exe** installer supports 64-bit Windows 10 and later. Close your DAW, choose VST3, AAX Native or both, then restart and rescan the DAW. Plug-ins install under Program Files\Common Files. Use Windows Settings > Apps > Aileron to uninstall. The development EXE is unsigned, and AAX testing requires Pro Tools Developer.
 
 ### Installation locations
 
@@ -245,7 +245,7 @@ To move an activation, select **Deactivate this device** on the old computer whi
 
 When the editor opens without authorization, the License pop-up offers **Activate** with your license key or **Start 15-day trial**. The trial starts only when selected, enables all features for 15 consecutive calendar days, and shows days remaining. Its machine-bound record is shared across formats within your computer login and persists across restarts. It does not consume a license device slot. After expiry, activate a license to continue processing; closing the pop-up leaves dry audio. The local trial works offline and checks for clock rollback. Local record deletion or modification can defeat this basic trial protection; it is not a server-issued entitlement.
 
-Outside the trial, this beta requires an assigned license key before the effect operates. Each beta key has no expiry and supports two active devices. Open License, paste the key and select Activate. An internet connection is required at startup and for periodic validation during use. If validation fails, the effect returns to dry audio with the existing Look-ahead latency; it does not mute the track. Offline authorization is not supported. The footer shows Activation required - dry audio while unlicensed. License details are stored outside DAW projects and presets.
+Outside the trial, this beta requires an assigned license key before the effect operates. Each beta key has no expiry and supports two active devices. Open License, paste the key and select Activate. In 0.4.21, connect once to activate a Polar license. Aileron then saves device-bound offline authorization in macOS Keychain or Windows protected storage. You can reopen your DAW projects and use the effect without internet access, with no offline time limit. Aileron checks Polar in the background at startup and approximately once per minute while running. Connection failures, rate limits and temporary server failures preserve offline access. A confirmed rejected or revoked activation removes offline authorization and returns the effect to dry audio with the existing Look-ahead latency; it does not mute the track. Revocations or transfers performed through the customer portal take effect on an offline computer when it next successfully contacts Polar. First activation and confirmed deactivation require internet access. Existing Polar activations from older versions need one successful online verification in 0.4.21 to prepare offline use. The License panel confirms “Ready for offline use” or reports a secure-storage problem; if access to Keychain/protected storage is denied, online validation remains necessary. Legacy Lemon Squeezy keys retain their online-validation behavior. The footer shows Activation required - dry audio while unlicensed. License details are stored outside DAW projects and presets.
 
 Version 0.4.15 supports Airscape Records licenses issued through Polar. These keys start with AILERON-, have no expiry and allow two active devices. Your purchase email identifies your customer record; paste the license key into Aileron to activate. You can retrieve your key and release a lost computer activation at https://polar.sh/airscape-records/portal using that email address. Keep keys private.
 
