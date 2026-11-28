@@ -1,10 +1,12 @@
 # Aileron — Airscape Records
 
-Official installer downloads: [Latest release](https://github.com/iamcaptaine/Aileron-Releases/releases/latest).
+Official installer downloads: [Airscape Records store](https://www.airscaperecords.com/store/aileron/).
 
 **[Read the Aileron User Manual](USER_MANUAL.md)** for setup instructions, explanations of every knob and control, motion modes, frequency selection, A/B comparison, licensing, and updates. Jump directly to the [control reference](USER_MANUAL.md#controls) or the [quick start](USER_MANUAL.md#quick-start-alternate-sounds).
 
-In **0.4.21**, Polar licenses work offline after one successful activation or verification in this version. Aileron saves device-bound authorization in macOS Keychain or Windows protected storage, reopens in your DAW projects offline without a time limit, and verifies with Polar in the background when connected. Temporary network/service failures preserve access; confirmed rejection or deactivation removes it. Portal revocations and transfers take effect on an offline device when it reconnects. The full-featured **15-day trial** remains available from License, works offline, and does not consume an activation slot. One license supports **two active devices with transfers**. Legacy Lemon Squeezy licenses still require online validation. See the [manual](USER_MANUAL.md#license-activation-and-transfers) for setup and secure-storage troubleshooting.
+In **0.4.21**, Polar licenses work offline after one successful activation or verification in this version. Aileron saves device-bound authorization in macOS Keychain or Windows protected storage, reopens in your DAW projects offline without a time limit, and verifies with Polar in the background when connected. Temporary network/service failures preserve access; confirmed rejection or deactivation removes it. Portal revocations and transfers take effect on an offline device when it reconnects. The full-featured **15-day trial** remains available from License, works offline, and does not consume an activation slot. Standard licenses support **two active devices with transfers**. Legacy Lemon Squeezy licenses still require online validation. See the [manual](USER_MANUAL.md#license-activation-and-transfers) for setup and secure-storage troubleshooting.
+
+**0.4.22 adds support for the separate early-access campaign licenses: one active computer per campaign key, with no expiry and activation transfers. Standard purchased licenses and existing two-device grants keep their two-device allowance. Campaign keys require 0.4.22 or later.** Download from the Airscape Records store above; GitHub continues to host the files and update feed.
 
 Mac downloads are for Apple Silicon (AU, VST3 and AAX). Windows downloads are x64 (VST3 and AAX). Save your project and quit all DAWs before running an installer. Installation requires your approval and may request administrator authorization.
 
